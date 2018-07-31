@@ -1,3 +1,7 @@
+html {
+    min-width: 300px;
+}
+
 body {
     background-image: url("../images/what-the-hex/what-the-hex.png");
 }
@@ -46,7 +50,7 @@ a:hover {
 
 .content-container {
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     background: #ffffff;
     border: 1px #cccccc solid;
 }
@@ -71,6 +75,53 @@ a:hover {
     margin-bottom: 20px;
 }
 
+.content-body {
+    background: #ffffff;
+    color:#4aaaa5;
+    float: left;
+    padding: 20px 0px 0px 0px;
+    margin-bottom: 20px;
+}
+
+#profilepic {
+    float: left;
+    height: 200px;
+    width: auto;
+    margin: 0px 20px 20px 0px;
+}
+
+#bio {
+    float: left;
+    line-height: 30px;
+}
+
+form {
+    width: 100%;
+}
+
+#formTextBox {
+    height: 250px;
+}
+
+.portfolio-pic {
+
+    padding: 5px 0px 10px 5px;
+    width: 100%;
+    height: auto;
+}
+
+h3 {
+    background: #4aaaa5;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: 2px;
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+    right: 0;
+}
+
 .footer {
     position: fixed;
     bottom: 0;
@@ -88,10 +139,6 @@ a:hover {
 
 @media only screen and (max-width: 768px) {
 
-    .navbar {
-        position
-    }
-   
     .nav {
         float: none;
         margin-right:auto;
@@ -99,7 +146,24 @@ a:hover {
         width:fit-content;
     }
 
-    .footer {
-        position: relative;
+    .content-container {
+        margin-top: 30px;
+        background: #ffffff;
+        border: 1px #cccccc solid;
+    }
+
+    #profilepic {
+        display: block;
+        width: 95%;
+        height: auto;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        align-content: center;
+    }
+
+    h3 {
+        font-size: 22px;
+        padding: 10px;
     }
 }
